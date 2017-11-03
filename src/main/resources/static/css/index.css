@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+}
+#login{
+    margin-left: 25px;
+    margin-top: 25px;
+    width: 1200px;
+    height: 360px;
+    background-image: url("/image/baner.jpg");
+    background-repeat:no-repeat;
+    background-size:100%;
+    border-radius:25px;
+}
