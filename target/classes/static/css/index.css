@@ -1,7 +1,8 @@
 body{
     text-align: center;
+    background-color: azure;
 }
-#login{
+#banner{
     margin-left: 25px;
     margin-top: 25px;
     width: 1200px;
@@ -11,3 +12,23 @@ body{
     background-size:100%;
     border-radius:25px;
 }
+#userid{
+    margin-top: 50px;
+    border-radius:5px;
+    display:inline
+}
+#passwd{
+    margin-top: 50px;
+    margin-left: 60px;
+    border-radius:5px;
+    display:inline;
+}
+#login{
+    margin-top: 30px;
+    margin-left: 60px;
+    width: 50px;
+    height: 25px;
+    border-radius:5px;
+    display:inline;
+}
+
