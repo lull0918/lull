@@ -1,34 +1,26 @@
 body{
-    text-align: center;
-    background-color: azure;
+    margin: 0;
+    padding: 0;
+    background-color: beige;
 }
 #banner{
-    margin-left: 25px;
-    margin-top: 25px;
-    width: 1200px;
-    height: 360px;
+    margin: auto;
+    width: 70%;
+    height: 400px;
     background-image: url("/image/baner.jpg");
-    background-repeat:no-repeat;
-    background-size:100%;
     border-radius:25px;
 }
-#userid{
-    margin-top: 50px;
-    border-radius:5px;
-    display:inline
-}
-#passwd{
-    margin-top: 50px;
-    margin-left: 60px;
-    border-radius:5px;
-    display:inline;
-}
 #login{
-    margin-top: 30px;
-    margin-left: 60px;
-    width: 50px;
-    height: 25px;
-    border-radius:5px;
-    display:inline;
+    margin: auto;
+    width: 30%;
+    height: 200px;
+    border-radius:15px;
+    background-color: aqua;
 }
-
+.loginInput{
+    margin: auto;
+    margin-top: 10%;
+    width: 80%;
+    height: 20%;
+    border-radius:3px;
+}

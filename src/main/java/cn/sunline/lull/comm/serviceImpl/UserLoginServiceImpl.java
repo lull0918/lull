@@ -19,4 +19,10 @@ public class UserLoginServiceImpl implements UserLoginService{
         return user;
     }
 
+    @Override
+    public UserLogin addUser(UserLogin user) {
+        userLoginDao.insert(user);
+        return user;
+    }
+
 }

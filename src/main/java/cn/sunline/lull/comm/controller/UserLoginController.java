@@ -22,17 +22,17 @@ public class UserLoginController{
 
 
     @RequestMapping("/login")
-    public String selectByUserid() {
+    public UserLogin selectByUserid() {
         UserLogin user = userLoginService.selectByUserid("9527");
-        System.out.println("========SQL执行完成======="+user);
-        if(user.equals(null)){
-            return user.toString();
-        }
-        return "";
+        return user;
     }
 
     @RequestMapping("/register")
-    public void insertUser(String userid, String userna, String passwd) {
-        //userLoginService.insertUser("9527","卢理林","123456");
+    public void addUser(String userid, String userna, String passwd) {
+        UserLogin user = new UserLogin();
+        user.setUserid(userid);
+        user.setUserna(userna);
+        user.setPasswd(passwd);
+        userLoginService.addUser(user);
     }
 }

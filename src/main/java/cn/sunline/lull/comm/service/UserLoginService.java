@@ -8,5 +8,5 @@ import java.util.List;
 
 public interface UserLoginService {
     UserLogin selectByUserid(String userid);
-
+    UserLogin addUser(UserLogin user);
 }
